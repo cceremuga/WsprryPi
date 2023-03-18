@@ -25,8 +25,8 @@ PACKAGE="WsprryPi"
 PACKAGENAME="Wsprry Pi"
 OWNER="lbussy"
 APTPACKAGES="apache2 php"
-WWWFILES="android-chrome-192x192.png android-chrome-512x512.png antenna.svg apple-touch-icon.png bootstrap.bundle.min.js bootstrap.css custom.css fa.js favicon-16x16.png favicon-32x32.png favicon.ico .gitignore index.php jquery-3.6.3.min.js site.webmanifest wspr_ini.php"
-WWWREMOV="bootstrap-icons.css custom.min.css ham_white.svg README.md"
+WWWFILES="android-chrome-192x192.png android-chrome-512x512.png antenna.svg apple-touch-icon.png bootstrap.bundle.min.js fa.js favicon-16x16.png favicon-32x32.png favicon.ico .gitignore site.webmanifest wspr_ini.php bootstrap.bundle.min.js.gz bootstrap.css.gz custom.css.gz fa.js.gz index.css index.css.gz index.html index.js index.js.gz"
+WWWREMOV="bootstrap-icons.css custom.min.css ham_white.svg README.md index.php jquery-3.6.3.min.js .gitignore bootstrap.css dustom.css"
 # This should not change
 if [ -z "$BRANCH" ]; then GITBRNCH="main"; else GITBRNCH="$BRANCH"; fi
 GITRAW="https://raw.githubusercontent.com/$OWNER"
